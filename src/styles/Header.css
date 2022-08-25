@@ -4,11 +4,14 @@
     font-size: 20px;
     background-color: #171818;
     color: #FFFFFF;
+    flex-wrap: wrap;
+    padding: 2px;
 }
 
 nav {
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 a {

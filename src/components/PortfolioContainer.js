@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 
 import Header from './Header'
+import About from './About';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState("About")
 
     const renderPage = () => {
         if(currentPage === "About"){
-            return
+            return <About />
         }
         if(currentPage === "Portfolio"){
             return

@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import '../styles/Header.css'
 
 export default function Header({currentPage, handlePageChange}) {

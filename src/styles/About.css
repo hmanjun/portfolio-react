@@ -1,0 +1,29 @@
+#content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #FFFBFE;
+    padding: 20px;
+    border: #7A7D7D;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#about-container {
+    margin: 30px;
+}
+
+p {
+    font-size: 20px;
+    flex:3;
+}
+
+img {
+    flex: 1;
+}
+
+body {
+    background-color: #D0CFCF;
+    margin: 0px;
+}
