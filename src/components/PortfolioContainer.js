@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import Header from './Header'
 import About from './About';
+import Portfolio from './Portfolio';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState("About")
@@ -11,7 +12,7 @@ export default function PortfolioContainer() {
             return <About />
         }
         if(currentPage === "Portfolio"){
-            return
+            return <Portfolio />
         }
         if(currentPage === "Resume"){
             return
