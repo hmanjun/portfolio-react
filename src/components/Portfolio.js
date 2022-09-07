@@ -33,6 +33,11 @@ export default function Portfolio() {
              img="/images/weather-tracker.png"
              repo="https://github.com/hmanjun/weather-tracker" 
              deployed="https://hmanjun.github.io/weather-tracker/" />
+
+            <Card title="Genshin Meta"
+             img="/images/genshin-meta.png"
+             repo="https://github.com/hmanjun/genshin-meta"
+             deployed="https://genshin-meta-t12.herokuapp.com/" />
         </div>
     )
 }
