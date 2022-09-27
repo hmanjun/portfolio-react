@@ -19,10 +19,11 @@ p {
     flex:3;
 }
 
-img {
-    flex: 1;
-    width: 300px;
-    height: 300px;
+#portfolio-img {
+    width: 153px;
+    height: 172px;
+    border: none;
+    border-radius: 50%;
 }
 
 body {

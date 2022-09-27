@@ -4,7 +4,7 @@ export default function Resume() {
     return (
         <div id="resume-container">
             <h1>Download Resume</h1>
-            <a id="resume" href="https://docs.google.com/document/d/1AuDIDN7kS0hg8vK3vrbQ4aNkf1lh7ASJ/edit?usp=sharing&ouid=108369415895724167610&rtpof=true&sd=true">Resume</a>
+            <a id="resume" href="https://drive.google.com/file/d/1hp_2WSral31SZ321nJSQXYcpIGGkpehg/view?usp=sharing">Resume</a>
             <h1>Skills</h1>
             <div id="skills-container">
                 <h3>HTML</h3>

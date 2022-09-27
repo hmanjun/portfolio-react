@@ -5,8 +5,8 @@ export default function About() {
         <div id="about-container">
             <h1>About Me</h1>
             <div id="content-container">
-                <p>I'm a 4th-year Business Economics student at UC Santa Cruz with an expected graduation date of July 2022. I have experience in creating linear regression, regressograms, and decision tree predictive models in R.</p>
-                <img src={process.env.PUBLIC_URL + "/images/headshot.jpg"} alt="my headshot"></img>
+                <p>I'm a software developer based in Mountain View, CA. I have a background in economics, educated at the University of California Santa Cruz, where I studied data analysis in experimental situations. I specialize in Front End and Back End JavaScript and writing programs in React and Node.js. I am an experienced programmer with a demonstrated history of working with various software and technology. I am skilled in Object-Oriented Programming and designing schemas in MySQL/MongoDB.</p>
+                <img id="portfolio-img" src={require('../assets/images/profile-picture.jpg')} alt="profile picture"></img>
             </div>
         </div>
     )
