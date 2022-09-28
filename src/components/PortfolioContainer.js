@@ -30,8 +30,8 @@ export default function PortfolioContainer() {
     return (
         <div>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
-            <Footer />
+            <div id="site-container">{renderPage()}</div>
+            
         </div>
     )
 }

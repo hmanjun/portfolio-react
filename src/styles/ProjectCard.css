@@ -12,12 +12,31 @@
     background-color: #fffbfe;
 }
 
-.card img {
-    width: 300px;
-    height: 200px;
-    border: none;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
+.proj-card {
+    display: flex;
+    background-color: #fffbfe;
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+    max-width: 1200px;
+}
+
+.proj-img-container {
+    width: 50%;
+}
+
+.proj-img-container img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.proj-card-content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 button {
