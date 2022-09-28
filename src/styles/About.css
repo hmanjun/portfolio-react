@@ -35,4 +35,10 @@ body {
 #site-container {
     display: flex;
     justify-content: center;
+    padding-bottom: 4.5rem;
+}
+
+#page-container{
+    position: relative;
+    min-height: 100vh;
 }
