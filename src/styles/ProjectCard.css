@@ -12,16 +12,52 @@
     background-color: #fffbfe;
 }
 
-.card img {
-    width: 300px;
-    height: 200px;
-    border: none;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
+.proj-card {
+    display: flex;
+    background-color: #fffbfe;
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+    max-width: 1200px;
+}
+
+.proj-img-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.proj-img-container img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.proj-card-content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
 }
 
 button {
     margin-left: 20px;
     margin-right: 20px;
     cursor: pointer;
+}
+
+@media only screen and (max-width:700px) {
+    .proj-card{
+        flex-direction: column;
+    }
+
+    .proj-card-content {
+        width: 99%;
+    }
+
+    .proj-img-container {
+        width: 100%;
+    }
 }

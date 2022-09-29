@@ -12,6 +12,7 @@
 
 #about-container {
     margin: 30px;
+    max-width: 1200px;
 }
 
 p {
@@ -29,4 +30,15 @@ p {
 body {
     background-color: #D0CFCF;
     margin: 0px;
+}
+
+#site-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4.5rem;
+}
+
+#page-container{
+    position: relative;
+    min-height: 100vh;
 }

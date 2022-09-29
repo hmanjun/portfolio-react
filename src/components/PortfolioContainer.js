@@ -20,17 +20,18 @@ export default function PortfolioContainer() {
         if(currentPage === "Resume"){
             return <Resume />
         }
+        /*
         if(currentPage === "Contact"){
             return <Contact />
-        }
+        }*/
     }
 
     const handlePageChange = (page) => setCurrentPage(page)
 
     return (
-        <div>
+        <div id="page-container">
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
+            <div id="site-container">{renderPage()}</div>
             <Footer />
         </div>
     )
