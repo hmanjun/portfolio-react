@@ -23,6 +23,8 @@
 
 .proj-img-container {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .proj-img-container img {
@@ -37,10 +39,25 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
 }
 
 button {
     margin-left: 20px;
     margin-right: 20px;
     cursor: pointer;
+}
+
+@media only screen and (max-width:700px) {
+    .proj-card{
+        flex-direction: column;
+    }
+
+    .proj-card-content {
+        width: 99%;
+    }
+
+    .proj-img-container {
+        width: 100%;
+    }
 }
