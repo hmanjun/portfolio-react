@@ -4,6 +4,11 @@ import '../styles/Portfolio.css'
 export default function Portfolio() {
     return (
         <div id="pcard-container">
+            <Card title="Discord Clone"
+             img="/images/discord-clone.PNG"
+             repo="https://github.com/hmanjun/Discord-Clone"
+             description="A full stack project that clones key features of the popular messaging app Discord. Created using React front-end and mongodb backend. Encorporates websockets to relay real time messages from client to client. "
+             deployed="https://hmanjun.github.io/Discord-Clone/#/register" />
 
             <Card title="Genshin Meta"
              img="/images/genshin-meta.PNG"
